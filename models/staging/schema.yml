@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    database: globalmart
+    schema: raw
+    tables:
+      - name: Customers
+      - name: Geolocation
+      - name: Order_Items
+      - name: Order_Payments
+      - name: Order_Reviews
+      - name: Orders
+      - name: Products
+      - name: Sellers
+      - name: Product_Category_Name_Translation
